@@ -30,10 +30,33 @@ body {
     padding: 1rem;
 
   }
+  .middleadd {
+    white-space: pre-wrap;
+    text-align: right;
+    padding: 2rem;
+    border-style: dashed;
+    border-left: none;
+    border-left: none;
+    border-right: none;
+    border-right: none;
+  }
   
   .time-block {
     text-align: center;
     border-radius: 15px;
+    
+  }
+  .time-blockadd{
+    text-align: center;
+    border-radius: 15px;
+    
+  }
+
+  .time-blockadd {
+    text-align: center;
+    border-radius: 15px;
+    border-style: dashed;
+    
     
   }
   
@@ -49,6 +72,12 @@ body {
     border-top: 1px dashed #000000;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+  }
+  .houradd {
+    color: #ffffff;
+    border-top-left-radius: 15px ; 
+    border-bottom-left-radius: 15px ;
+    border: 3px dashed #000000;
   }
   
   .past {
@@ -73,11 +102,25 @@ body {
     background-color: #045668;
     color: white;
   }
+
+  .saveBtnadd {
+    color: #000000;
+    border-top-right-radius: 15px ; 
+    border-bottom-right-radius: 15px ;
+    border: 3px dashed #000000;
+  }
+ 
   
   
   .saveBtn i:hover {
+ 
     font-size: 20px;
     transition: all 0.3s ease-in-out;
+  }
+  .saveBtnadd i:hover {
+    color: #0c768e;
+    font-size: 20px;
+    transition: all 0.3s ease-in;
   }
 
 
