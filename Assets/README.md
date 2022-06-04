@@ -1,5 +1,5 @@
-# 04QuizMulOpt
-Quiz with Multiple options and Score Results
+# 05-GTBScheduler
+To-Do list of activities for actual day and next days, after one day is overdue it is erased in automatic
 
 
 
@@ -23,17 +23,8 @@ git clone git@github.com:J28819/05-GTBScheduler.git
 
 ## Description
 
-This Quiz has multiple options, and use a JSON Object to customize the questions its also use local storage to record and shows the last Highest Scores. The questions are shuffled in the way every time the page is loaded it will be randomize the questions.
-- Top Nav Bar has the link for the repository.
-- the page has a start button, when this Start button is pressed the Timer in the right side start to count down from 50 to 0.
-- the Timer down looks red when they are below 10.
-- after start the quiz if no input is add it the timer going zero and it shows in the screen Times Up!! and then Try Again!! after 2 second then the page restart.
-- the page has a Rankin board in the left where you can see who is the first plece and it is ordered Desc. top names or initials are higher scores. 
-- The page create an Anonimous user if no Initials are camptured.
-- After submit the initials or name the page has two buttons one "Back" and One "Clear highScores"
-   -  Back button restart the page.
-   - Clear HighScores button empty the localStorage for HighScores.
--
+
+
 
 ## Screenshoots
 

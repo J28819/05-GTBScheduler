@@ -76,7 +76,6 @@ console.log(ObjectSquema)
             time = moment().format(newtime + ':00 a')
         }
         
-
         var txt2 = `<li>
         <div id="newItem" class="row time-block">
            <p class="col-md-1 hour">${time}</p>
