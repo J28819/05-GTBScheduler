@@ -105,7 +105,7 @@ listItems.each(function(idx, li) {
             ObjectSquema[0]['data'].push({"time":newtime, "msg": " "})
             localStorage.setItem(date.toString(),  JSON.stringify(ObjectSquema));
         } else {
-            newtime = newtime - 12
+            
             time = (newtime + ':00' + ' pm')
             ObjectSquema[0]['data'].push({"time":newtime, "msg": " "})
             localStorage.setItem(date.toString(),  JSON.stringify(ObjectSquema));

@@ -37,7 +37,7 @@ git clone git@github.com:J28819/05-GTBScheduler.git
 
 ## Screenshoots
 
-![My animated logo](./Assets/readme-pics/overview.png.png)
+![My animated logo](./Assets/readme-pics/overviewv1.2.png)
 
 ## Conclusion 
 
