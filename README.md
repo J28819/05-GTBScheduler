@@ -16,7 +16,7 @@ git clone git@github.com:J28819/05-GTBScheduler.git
 
 ```
 
-2. Then open it with Visual Code and run Live Server on the [Index.html file.]
+2. Then open it with Visual Code and run Live Server on the [index.html file.]
 
 3. You can Follow this link to see the live page in GitHub : https://j28819.github.io/05-GTBScheduler/
 
