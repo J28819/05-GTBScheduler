@@ -61,7 +61,7 @@ if (variabledate === date){
 
 ObjectSquema[0]['data'].forEach(element => {
     var Objtime = element['time']
-
+    var Objmsg= element['msg']
     var lastNumber = $(ObjectSquema).get(-1)
    
     if (Objtime < 12) {
@@ -73,7 +73,7 @@ ObjectSquema[0]['data'].forEach(element => {
     elementsdefault = `<li>
     <div id="nodata" class="row time-block">
        <p class="col-md-1 hour">${timeini}</p>
-        <textarea data-x="${Objtime}" class="col-md-8 description" placeholder="Write here your activities"></textarea>
+        <textarea data-x="${Objtime}" class="col-md-8 description" placeholder="Write here your activities">${Objmsg}</textarea>
            <button class="col-md-1 btn saveBtn"><i class="glyphicon glyphicon-floppy-disk" style="font-size:36px;"></i></button>
        </div>`
     $("#ulList").append(elementsdefault);
@@ -124,9 +124,9 @@ ObjectSquema[0]['data'].forEach(element => {
         var textarea = $(this).siblings(".description").val()
         var id = $(this).siblings(".description").data('x')
 
-        var LocalstorageUpdate = localStorage.getItem(date);
-        var ObjectSquemaUpdate = JSON.parse(LocalstorageUpdate);
-         (ObjectSquemaUpdate[0].data).forEach(element => {
+        Localstorage = localStorage.getItem(date);
+        ObjectSquema = JSON.parse(Localstorage);
+         (ObjectSquema[0].data).forEach(element => {
              if (element.time === id){
                  element.msg = textarea;
                  console.log(element)
@@ -137,9 +137,9 @@ ObjectSquema[0]['data'].forEach(element => {
          
 
          )
-         console.log(ObjectSquemaUpdate[0].data)
-        localStorage.setItem(date.toString(),  JSON.stringify(ObjectSquemaUpdate));
-        location.reload();
+         console.log(ObjectSquema[0].data)
+        localStorage.setItem(date.toString(),  JSON.stringify(ObjectSquema));
+        //location.reload();
     })
 
 
